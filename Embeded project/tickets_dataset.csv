@@ -1,0 +1,37 @@
+x_ticket,y_issue
+ticket_001,Application Crashes
+ticket_002,Network Interface Card
+ticket_003,Computer Domain Join Failed
+ticket_004,Shared Folder Access Denied
+ticket_005,Windows Update Failed
+ticket_006,Memory Module
+ticket_007,CPU Overheating
+ticket_008,Power Supply Unit
+ticket_009,Graphics Card Display
+ticket_010,Database Connection Timeout
+ticket_011,CPU Overheating
+ticket_012,VoIP Phone System
+ticket_013,Backup Job
+ticket_014,VPN Connection
+ticket_015,System Performance Optimization
+ticket_016,Software License Activation
+ticket_017,Network Printer Offline
+ticket_018,Email Attachment
+ticket_019,Wireless Access Point Down
+ticket_020,System Crash - Critical
+ticket_021,Memory Module
+ticket_022,Network Security Breach
+ticket_023,Malware Detection and Removal
+ticket_024,Email Server Outage
+ticket_025,Power Supply Unit
+ticket_026,Network Printer Connectivity
+ticket_027,Graphics Card Display
+ticket_028,Software Installation Request
+ticket_029,Blue Screen of Death (BSOD)
+ticket_030,Motherboard Component
+ticket_031,Primary Storage Drive
+ticket_032,Memory Corruption
+ticket_033,System Thermal Shutdown
+ticket_034,BIOS Firmware Corruption
+ticket_035,Severe System Performance Degradation
+ticket_036,System Crash - Critical

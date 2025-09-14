@@ -1,0 +1,40 @@
+ticket_number,x_text,y_label,predicted_label
+Ticket #017,Software Crash</title>,software crash,other issue
+Ticket #025,Network Card Failure</title>,network issue,network issue
+Ticket #018,Domain Join Issues</title>,other issue,other issue
+Ticket #019,Shared Folder Access</title>,other issue,other issue
+Ticket #020,Windows Update Issues</title>,other issue,other issue
+Ticket #021,Memory Failure</title>,system crash,system crash
+Ticket #022,CPU Overheating</title>,system crash,system crash
+Ticket #023,Power Supply Failure</title>,server crash,server crash
+Ticket #024,Graphics Card Failure</title>,other issue,other issue
+Ticket #008,Database Timeout</title>,database crash,other issue
+Ticket #003,CPU Overheating</title>,system crash,system crash
+Ticket #009,VoIP Phone Issues</title>,other issue,other issue
+Ticket #010,Backup Failure</title>,other issue,other issue
+Ticket #011,VPN Connection Issues</title>,network issue,other issue
+Ticket #012,Performance Optimization</title>,other issue,other issue
+Ticket #013,License Activation</title>,other issue,other issue
+Ticket #014,Network Printer Issues</title>,network issue,network issue
+Ticket #015,Email Attachment Issues</title>,other issue,other issue
+Ticket #016,Wireless Access Point Issues</title>,other issue,other issue
+Ticket #001,System Crash</title>,system crash,system crash
+Ticket #002,Memory Failure</title>,system crash,system crash
+Ticket #002,Network Security</title>,network issue,network issue
+Ticket #007,Virus Removal</title>,other issue,other issue
+Ticket #003,Email Outage</title>,other issue,other issue
+Ticket #004,Power Supply Failure</title>,server crash,server crash
+Ticket #004,Network Printer Issues</title>,network issue,network issue
+Ticket #005,Graphics Card Failure</title>,other issue,other issue
+Ticket #005,Software Installation</title>,software crash,other issue
+Ticket #006,Blue Screen Error</title>,system crash,other issue
+Ticket #026,Motherboard Failure</title>,other issue,other issue
+Ticket #027,Storage Drive Failure</title>,other issue,other issue
+Ticket #028,RAM Corruption</title>,other issue,other issue
+Ticket #029,Thermal Shutdown</title>,system crash,other issue
+Ticket #030,BIOS Corruption</title>,other issue,other issue
+Ticket #031,System Performance</title>,system crash,system crash
+Ticket #001,System Crash</title>,system crash,system crash
+Ticket #002,Memory Failure</title>,system crash,system crash
+Ticket #003,CPU Overheating</title>,system crash,system crash
+Ticket #004,Power Supply Failure</title>,server crash,server crash
