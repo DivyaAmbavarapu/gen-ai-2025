@@ -1,0 +1,701 @@
+--- Content from ticket_001_server_crash.json ---/n{
+    "ticket_id": "TKT-001",
+    "priority": "CRITICAL",
+    "category": "Server",
+    "status": "Resolved",
+    "created_date": "2024-01-15T09:30:00Z",
+    "resolved_date": "2024-01-15T14:45:00Z",
+    "assigned_to": "John Smith",
+    "user": {
+        "name": "Alice Johnson",
+        "department": "Finance",
+        "email": "alice.johnson@company.com"
+    },
+    "subject": "Production Server Crash",
+    "description": "Primary database server crashed during peak business hours. All financial transactions are down and customers cannot process payments. Server shows blue screen error and will not boot.",
+    "resolution": "Replaced failed hard drive and restored from backup",
+    "resolution_steps": [
+        "Identified failed hard drive through hardware diagnostics",
+        "Replaced failed drive with new SSD",
+        "Restored operating system from backup image",
+        "Restored database from latest backup",
+        "Verified all services are running properly",
+        "Performed load testing to ensure stability"
+    ],
+    "time_spent_minutes": 315,
+    "tags": [
+        "server",
+        "crash",
+        "hardware",
+        "database",
+        "backup"
+    ],
+    "impact": "High - All financial operations affected",
+    "root_cause": "Hard drive failure due to mechanical wear",
+    "prevention_measures": "Implement RAID configuration and regular hardware monitoring"
+}/n/n--- Content from ticket_002_security_breach.json ---/n{
+    "ticket_id": "TKT-002",
+    "priority": "CRITICAL",
+    "category": "Security",
+    "status": "Resolved",
+    "created_date": "2024-01-16T11:20:00Z",
+    "resolved_date": "2024-01-17T16:30:00Z",
+    "assigned_to": "Sarah Davis",
+    "user": {
+        "name": "Bob Wilson",
+        "department": "Marketing",
+        "email": "bob.wilson@company.com"
+    },
+    "subject": "Suspected Security Breach",
+    "description": "Security monitoring detected unauthorized access attempts to company email server. Multiple failed login attempts from suspicious IP addresses. Potential data breach in progress.",
+    "resolution": "Blocked malicious IPs and implemented additional security measures",
+    "resolution_steps": [
+        "Analyzed security logs and identified attack patterns",
+        "Blocked suspicious IP addresses at firewall level",
+        "Reset all potentially compromised passwords",
+        "Enabled two-factor authentication for all accounts",
+        "Updated security policies and monitoring rules",
+        "Conducted security audit of all systems"
+    ],
+    "time_spent_minutes": 1270,
+    "tags": [
+        "security",
+        "breach",
+        "firewall",
+        "authentication",
+        "monitoring"
+    ],
+    "impact": "Critical - Potential data exposure",
+    "root_cause": "Weak password policies and insufficient monitoring",
+    "prevention_measures": "Enhanced security policies and real-time monitoring"
+}/n/n--- Content from ticket_003_network_outage.json ---/n{
+    "ticket_id": "TKT-003",
+    "priority": "HIGH",
+    "category": "Network",
+    "status": "Resolved",
+    "created_date": "2024-01-17T08:15:00Z",
+    "resolved_date": "2024-01-17T12:30:00Z",
+    "assigned_to": "Mike Chen",
+    "user": {
+        "name": "Carlos Rodriguez",
+        "department": "HR",
+        "email": "carlos.rodriguez@company.com"
+    },
+    "subject": "Network Outage - Building A",
+    "description": "Complete network outage affecting entire Building A. No internet connectivity, no access to shared drives, and VoIP phones are down. All users in the building are unable to work.",
+    "resolution": "Replaced failed network switch and restored connectivity",
+    "resolution_steps": [
+        "Identified failed core network switch in Building A",
+        "Replaced failed switch with backup unit",
+        "Reconfigured VLAN settings and port assignments",
+        "Tested connectivity to all network segments",
+        "Verified internet access and internal services",
+        "Monitored network stability for 2 hours"
+    ],
+    "time_spent_minutes": 255,
+    "tags": [
+        "network",
+        "outage",
+        "switch",
+        "connectivity",
+        "infrastructure"
+    ],
+    "impact": "High - Entire building offline",
+    "root_cause": "Hardware failure in core network switch",
+    "prevention_measures": "Implement redundant switches and monitoring"
+}/n/n--- Content from ticket_004_email_spam.json ---/n{
+    "ticket_id": "TKT-004",
+    "priority": "MEDIUM",
+    "category": "Email",
+    "status": "Resolved",
+    "created_date": "2024-01-18T14:30:00Z",
+    "resolved_date": "2024-01-18T17:45:00Z",
+    "assigned_to": "Lisa Brown",
+    "user": {
+        "name": "David Kim",
+        "department": "IT",
+        "email": "david.kim@company.com"
+    },
+    "subject": "Email Server Overwhelmed by Spam",
+    "description": "Email server is receiving massive amounts of spam emails, causing performance issues and legitimate emails to be delayed. Server resources are being consumed by spam processing.",
+    "resolution": "Updated spam filters and blocked malicious senders",
+    "resolution_steps": [
+        "Analyzed spam patterns and identified source domains",
+        "Updated spam filter rules and sensitivity settings",
+        "Blocked malicious sender domains at DNS level",
+        "Configured rate limiting for incoming emails",
+        "Updated antivirus definitions for email scanning",
+        "Monitored email flow and performance metrics"
+    ],
+    "time_spent_minutes": 195,
+    "tags": [
+        "email",
+        "spam",
+        "performance",
+        "filtering",
+        "security"
+    ],
+    "impact": "Medium - Email delays and performance issues",
+    "root_cause": "Insufficient spam filtering and outdated rules",
+    "prevention_measures": "Regular spam filter updates and monitoring"
+}/n/n--- Content from ticket_005_software_license.json ---/n{
+    "ticket_id": "TKT-005",
+    "priority": "MEDIUM",
+    "category": "Software",
+    "status": "Resolved",
+    "created_date": "2024-01-19T10:45:00Z",
+    "resolved_date": "2024-01-19T13:20:00Z",
+    "assigned_to": "Tom Wilson",
+    "user": {
+        "name": "Emma Thompson",
+        "department": "Sales",
+        "email": "emma.thompson@company.com"
+    },
+    "subject": "Software License Compliance Issue",
+    "description": "Software audit revealed that company is using more licenses than purchased. Multiple users are sharing licenses which violates software agreements and could result in legal action.",
+    "resolution": "Purchased additional licenses and implemented license management",
+    "resolution_steps": [
+        "Conducted comprehensive software audit across all systems",
+        "Identified all installed software and license usage",
+        "Purchased additional licenses to meet compliance requirements",
+        "Implemented license management software for tracking",
+        "Configured license enforcement policies",
+        "Trained users on proper license usage"
+    ],
+    "time_spent_minutes": 155,
+    "tags": [
+        "license",
+        "compliance",
+        "audit",
+        "software",
+        "legal"
+    ],
+    "impact": "Medium - Legal compliance risk",
+    "root_cause": "Insufficient license tracking and management",
+    "prevention_measures": "Implement license management system and regular audits"
+}/n/n--- Content from ticket_006_backup_corruption.json ---/n{
+    "ticket_id": "TKT-006",
+    "priority": "HIGH",
+    "category": "Backup",
+    "status": "Resolved",
+    "created_date": "2024-01-20T16:00:00Z",
+    "resolved_date": "2024-01-21T09:30:00Z",
+    "assigned_to": "Alex Johnson",
+    "user": {
+        "name": "Jennifer Lee",
+        "department": "Operations",
+        "email": "jennifer.lee@company.com"
+    },
+    "subject": "Backup Data Corruption",
+    "description": "Critical backup files are corrupted and cannot be restored. This affects disaster recovery capabilities and puts company data at risk. Multiple backup sets show corruption errors.",
+    "resolution": "Restored from secondary backup location and implemented verification",
+    "resolution_steps": [
+        "Identified corrupted backup files and extent of damage",
+        "Located secondary backup copies in offsite location",
+        "Verified integrity of secondary backup files",
+        "Restored critical data from secondary backup",
+        "Implemented backup verification and integrity checking",
+        "Tested restore procedures with sample data"
+    ],
+    "time_spent_minutes": 1050,
+    "tags": [
+        "backup",
+        "corruption",
+        "disaster_recovery",
+        "data_integrity",
+        "restore"
+    ],
+    "impact": "High - Data recovery risk",
+    "root_cause": "Insufficient backup verification and monitoring",
+    "prevention_measures": "Implement automated backup verification and multiple backup locations"
+}/n/n--- Content from ticket_007_wireless_security.json ---/n{
+    "ticket_id": "TKT-007",
+    "priority": "HIGH",
+    "category": "Security",
+    "status": "Resolved",
+    "created_date": "2024-01-21T13:15:00Z",
+    "resolved_date": "2024-01-21T16:45:00Z",
+    "assigned_to": "Rachel Green",
+    "user": {
+        "name": "Michael Park",
+        "department": "Finance",
+        "email": "michael.park@company.com"
+    },
+    "subject": "Wireless Network Security Breach",
+    "description": "Unauthorized devices detected on corporate wireless network. Security scan shows unknown devices connected to WiFi that are not company-owned. Potential security risk.",
+    "resolution": "Updated wireless security and removed unauthorized devices",
+    "resolution_steps": [
+        "Scanned wireless network for connected devices",
+        "Identified unauthorized devices and their MAC addresses",
+        "Blocked unauthorized devices at access point level",
+        "Updated wireless encryption to WPA3",
+        "Implemented device registration and MAC filtering",
+        "Enhanced wireless monitoring and alerting"
+    ],
+    "time_spent_minutes": 210,
+    "tags": [
+        "wireless",
+        "security",
+        "unauthorized_access",
+        "encryption",
+        "monitoring"
+    ],
+    "impact": "High - Unauthorized network access",
+    "root_cause": "Weak wireless security and insufficient monitoring",
+    "prevention_measures": "Enhanced wireless security policies and device management"
+}/n/n--- Content from ticket_008_database_performance.json ---/n{
+    "ticket_id": "TKT-008",
+    "priority": "MEDIUM",
+    "category": "Database",
+    "status": "Resolved",
+    "created_date": "2024-01-22T11:30:00Z",
+    "resolved_date": "2024-01-22T15:15:00Z",
+    "assigned_to": "Kevin Martinez",
+    "user": {
+        "name": "Amanda Foster",
+        "department": "IT",
+        "email": "amanda.foster@company.com"
+    },
+    "subject": "Database Performance Degradation",
+    "description": "Customer database queries are running extremely slow, causing application timeouts and poor user experience. Response times have increased from 2 seconds to 30+ seconds.",
+    "resolution": "Optimized database queries and added indexes",
+    "resolution_steps": [
+        "Analyzed database performance metrics and slow queries",
+        "Identified missing indexes and inefficient query patterns",
+        "Added strategic indexes to improve query performance",
+        "Optimized problematic stored procedures and views",
+        "Updated database statistics and rebuilt indexes",
+        "Monitored performance improvements and fine-tuned settings"
+    ],
+    "time_spent_minutes": 225,
+    "tags": [
+        "database",
+        "performance",
+        "optimization",
+        "queries",
+        "indexes"
+    ],
+    "impact": "Medium - Application performance issues",
+    "root_cause": "Missing indexes and unoptimized queries",
+    "prevention_measures": "Implement query monitoring and regular performance reviews"
+}/n/n--- Content from ticket_009_phone_system_failure.json ---/n{
+    "ticket_id": "TKT-009",
+    "priority": "HIGH",
+    "category": "Telecommunications",
+    "status": "Resolved",
+    "created_date": "2024-01-23T09:45:00Z",
+    "resolved_date": "2024-01-23T14:20:00Z",
+    "assigned_to": "Patricia White",
+    "user": {
+        "name": "Robert Taylor",
+        "department": "Support",
+        "email": "robert.taylor@company.com"
+    },
+    "subject": "VoIP Phone System Complete Failure",
+    "description": "Entire VoIP phone system is down across all locations. No calls can be made or received. Phone system shows critical errors and all handsets display 'No Service'.",
+    "resolution": "Restarted phone system services and restored connectivity",
+    "resolution_steps": [
+        "Diagnosed phone system server and identified service failures",
+        "Restarted all VoIP services and core system components",
+        "Verified network connectivity to phone system server",
+        "Reconfigured phone system settings and user accounts",
+        "Tested call functionality across all locations",
+        "Implemented monitoring to prevent future outages"
+    ],
+    "time_spent_minutes": 275,
+    "tags": [
+        "voip",
+        "phone_system",
+        "outage",
+        "telecommunications",
+        "services"
+    ],
+    "impact": "High - Complete communication failure",
+    "root_cause": "Service failures due to system overload",
+    "prevention_measures": "Implement system monitoring and load balancing"
+}/n/n--- Content from ticket_010_file_server_crash.json ---/n{
+    "ticket_id": "TKT-010",
+    "priority": "CRITICAL",
+    "category": "File Server",
+    "status": "Resolved",
+    "created_date": "2024-01-24T08:30:00Z",
+    "resolved_date": "2024-01-24T16:45:00Z",
+    "assigned_to": "Daniel Kim",
+    "user": {
+        "name": "Laura Anderson",
+        "department": "IT",
+        "email": "laura.anderson@company.com"
+    },
+    "subject": "File Server Complete Failure",
+    "description": "Primary file server crashed and will not boot. All shared drives and user data are inaccessible. This affects all departments and critical business operations.",
+    "resolution": "Replaced failed hardware and restored from backup",
+    "resolution_steps": [
+        "Diagnosed hardware failure and identified failed components",
+        "Replaced failed motherboard and memory modules",
+        "Restored operating system from backup image",
+        "Restored all file shares and user data from backup",
+        "Reconfigured file server settings and permissions",
+        "Verified data integrity and tested all file operations"
+    ],
+    "time_spent_minutes": 495,
+    "tags": [
+        "file_server",
+        "crash",
+        "hardware",
+        "data_restore",
+        "backup"
+    ],
+    "impact": "Critical - All file access unavailable",
+    "root_cause": "Hardware failure due to power surge",
+    "prevention_measures": "Implement UPS protection and hardware redundancy"
+}/n/n--- Content from ticket_011_remote_desktop_issues.json ---/n{
+    "ticket_id": "TKT-011",
+    "priority": "MEDIUM",
+    "category": "Remote Access",
+    "status": "Resolved",
+    "created_date": "2024-01-25T15:30:00Z",
+    "resolved_date": "2024-01-25T18:00:00Z",
+    "assigned_to": "Chris Lee",
+    "user": {
+        "name": "Susan Clark",
+        "department": "Marketing",
+        "email": "susan.clark@company.com"
+    },
+    "subject": "Remote Desktop Connection Failures",
+    "description": "Users cannot establish remote desktop connections to their work computers. Connection attempts fail with authentication errors and timeout issues.",
+    "resolution": "Updated RDP settings and resolved authentication issues",
+    "resolution_steps": [
+        "Verified remote desktop service status on target computers",
+        "Updated RDP configuration and security settings",
+        "Resolved Windows authentication and credential issues",
+        "Configured firewall rules for RDP traffic",
+        "Updated remote desktop client software",
+        "Tested connections from multiple locations"
+    ],
+    "time_spent_minutes": 150,
+    "tags": [
+        "remote_desktop",
+        "rdp",
+        "authentication",
+        "firewall",
+        "connectivity"
+    ],
+    "impact": "Medium - Remote work affected",
+    "root_cause": "Outdated RDP configuration and authentication issues",
+    "prevention_measures": "Regular RDP configuration reviews and monitoring"
+}/n/n--- Content from ticket_012_antivirus_false_positive.json ---/n{
+    "ticket_id": "TKT-012",
+    "priority": "LOW",
+    "category": "Security",
+    "status": "Resolved",
+    "created_date": "2024-01-26T14:20:00Z",
+    "resolved_date": "2024-01-26T16:45:00Z",
+    "assigned_to": "Maria Garcia",
+    "user": {
+        "name": "James Wilson",
+        "department": "Finance",
+        "email": "james.wilson@company.com"
+    },
+    "subject": "Antivirus False Positive Blocking Application",
+    "description": "Antivirus software is incorrectly identifying legitimate business application as malware and blocking its execution. This prevents users from accessing critical business software.",
+    "resolution": "Updated antivirus definitions and whitelisted application",
+    "resolution_steps": [
+        "Analyzed antivirus logs and identified false positive",
+        "Updated antivirus definitions to latest version",
+        "Added application to antivirus whitelist",
+        "Configured exclusion rules for application files",
+        "Tested application functionality after changes",
+        "Reported false positive to antivirus vendor"
+    ],
+    "time_spent_minutes": 145,
+    "tags": [
+        "antivirus",
+        "false_positive",
+        "whitelist",
+        "security",
+        "application"
+    ],
+    "impact": "Low - Application access blocked",
+    "root_cause": "Outdated antivirus definitions and aggressive scanning",
+    "prevention_measures": "Regular antivirus updates and whitelist management"
+}/n/n--- Content from ticket_013_cloud_sync_issues.json ---/n{
+    "ticket_id": "TKT-013",
+    "priority": "MEDIUM",
+    "category": "Cloud Services",
+    "status": "Resolved",
+    "created_date": "2024-01-27T10:15:00Z",
+    "resolved_date": "2024-01-27T13:30:00Z",
+    "assigned_to": "Steve Brown",
+    "user": {
+        "name": "Nancy Davis",
+        "department": "HR",
+        "email": "nancy.davis@company.com"
+    },
+    "subject": "Cloud Storage Sync Failures",
+    "description": "OneDrive sync is failing for multiple users. Files are not syncing between local computers and cloud storage, causing version conflicts and data inconsistency.",
+    "resolution": "Reset sync settings and resolved authentication issues",
+    "resolution_steps": [
+        "Diagnosed OneDrive sync issues and error messages",
+        "Reset OneDrive sync settings for affected users",
+        "Resolved Microsoft 365 authentication problems",
+        "Cleared OneDrive cache and temporary files",
+        "Reconfigured sync folders and file exclusions",
+        "Verified sync functionality and file consistency"
+    ],
+    "time_spent_minutes": 195,
+    "tags": [
+        "onedrive",
+        "cloud_sync",
+        "microsoft365",
+        "authentication",
+        "files"
+    ],
+    "impact": "Medium - File synchronization issues",
+    "root_cause": "Authentication issues and corrupted sync settings",
+    "prevention_measures": "Regular sync monitoring and user training"
+}/n/n--- Content from ticket_014_printer_driver_conflict.json ---/n{
+    "ticket_id": "TKT-014",
+    "priority": "LOW",
+    "category": "Printing",
+    "status": "Resolved",
+    "created_date": "2024-01-28T09:30:00Z",
+    "resolved_date": "2024-01-28T11:45:00Z",
+    "assigned_to": "Jeff Taylor",
+    "user": {
+        "name": "Lisa Wang",
+        "department": "Operations",
+        "email": "lisa.wang@company.com"
+    },
+    "subject": "Printer Driver Conflicts",
+    "description": "Multiple printer drivers are conflicting causing print jobs to fail or print to wrong printer. Users are experiencing random printer selection issues.",
+    "resolution": "Removed conflicting drivers and standardized printer configuration",
+    "resolution_steps": [
+        "Identified conflicting printer drivers in system",
+        "Removed outdated and conflicting printer drivers",
+        "Installed latest compatible drivers for all printers",
+        "Standardized printer naming and configuration",
+        "Tested printing from all applications",
+        "Provided user training on printer selection"
+    ],
+    "time_spent_minutes": 135,
+    "tags": [
+        "printer",
+        "drivers",
+        "conflicts",
+        "configuration",
+        "printing"
+    ],
+    "impact": "Low - Printing reliability issues",
+    "root_cause": "Multiple conflicting printer drivers",
+    "prevention_measures": "Standardized printer driver management"
+}/n/n--- Content from ticket_015_website_downtime.json ---/n{
+    "ticket_id": "TKT-015",
+    "priority": "HIGH",
+    "category": "Web Services",
+    "status": "Resolved",
+    "created_date": "2024-01-29T12:00:00Z",
+    "resolved_date": "2024-01-29T16:30:00Z",
+    "assigned_to": "Angela Miller",
+    "user": {
+        "name": "Paul Johnson",
+        "department": "Sales",
+        "email": "paul.johnson@company.com"
+    },
+    "subject": "Company Website Down",
+    "description": "Company website is completely inaccessible. Customers cannot access online services, make purchases, or view product information. This is affecting business operations significantly.",
+    "resolution": "Restored website from backup and fixed server issues",
+    "resolution_steps": [
+        "Diagnosed web server issues and identified root cause",
+        "Restored website files from latest backup",
+        "Fixed database connectivity issues",
+        "Updated web server configuration and security settings",
+        "Tested website functionality and performance",
+        "Implemented monitoring to prevent future outages"
+    ],
+    "time_spent_minutes": 270,
+    "tags": [
+        "website",
+        "downtime",
+        "web_server",
+        "database",
+        "restore"
+    ],
+    "impact": "High - Customer-facing service unavailable",
+    "root_cause": "Server configuration issues and database connectivity",
+    "prevention_measures": "Enhanced monitoring and backup procedures"
+}/n/n--- Content from ticket_016_mobile_device_management.json ---/n{
+    "ticket_id": "TKT-016",
+    "priority": "MEDIUM",
+    "category": "Mobile Devices",
+    "status": "Resolved",
+    "created_date": "2024-01-30T11:20:00Z",
+    "resolved_date": "2024-01-30T14:45:00Z",
+    "assigned_to": "Brian Wilson",
+    "user": {
+        "name": "Karen Smith",
+        "department": "Support",
+        "email": "karen.smith@company.com"
+    },
+    "subject": "Mobile Device Management Issues",
+    "description": "Company mobile devices cannot connect to corporate email and applications. MDM policies are not being applied correctly and devices are not receiving security updates.",
+    "resolution": "Updated MDM configuration and resolved device enrollment",
+    "resolution_steps": [
+        "Diagnosed MDM server connectivity and policy issues",
+        "Updated mobile device management server configuration",
+        "Re-enrolled affected devices in MDM system",
+        "Applied correct security policies and restrictions",
+        "Verified email and application access on devices",
+        "Tested device compliance and security features"
+    ],
+    "time_spent_minutes": 205,
+    "tags": [
+        "mdm",
+        "mobile_devices",
+        "policies",
+        "enrollment",
+        "security"
+    ],
+    "impact": "Medium - Mobile device security and access issues",
+    "root_cause": "MDM server configuration and policy application issues",
+    "prevention_measures": "Regular MDM monitoring and policy testing"
+}/n/n--- Content from ticket_017_network_segmentation.json ---/n{
+    "ticket_id": "TKT-017",
+    "priority": "MEDIUM",
+    "category": "Network",
+    "status": "Resolved",
+    "created_date": "2024-01-31T15:45:00Z",
+    "resolved_date": "2024-02-01T10:30:00Z",
+    "assigned_to": "Mark Thompson",
+    "user": {
+        "name": "Stephanie Brown",
+        "department": "Marketing",
+        "email": "stephanie.brown@company.com"
+    },
+    "subject": "Network Segmentation Implementation",
+    "description": "Need to implement network segmentation to improve security. Current flat network design allows unrestricted access between all network segments, creating security risks.",
+    "resolution": "Implemented VLAN segmentation and access controls",
+    "resolution_steps": [
+        "Designed network segmentation strategy and VLAN structure",
+        "Configured VLANs and subnet assignments",
+        "Implemented access control lists and firewall rules",
+        "Migrated devices to appropriate network segments",
+        "Tested connectivity and security between segments",
+        "Updated documentation and provided user training"
+    ],
+    "time_spent_minutes": 1185,
+    "tags": [
+        "network",
+        "segmentation",
+        "vlan",
+        "security",
+        "firewall"
+    ],
+    "impact": "Medium - Network security improvement",
+    "root_cause": "Flat network design with insufficient security controls",
+    "prevention_measures": "Regular network security audits and monitoring"
+}/n/n--- Content from ticket_018_data_migration.json ---/n{
+    "ticket_id": "TKT-018",
+    "priority": "HIGH",
+    "category": "Data Migration",
+    "status": "Resolved",
+    "created_date": "2024-02-01T08:15:00Z",
+    "resolved_date": "2024-02-02T17:30:00Z",
+    "assigned_to": "Jennifer Lee",
+    "user": {
+        "name": "Thomas Anderson",
+        "department": "IT",
+        "email": "thomas.anderson@company.com"
+    },
+    "subject": "Critical Data Migration Project",
+    "description": "Need to migrate customer database from legacy system to new platform. Migration must be completed without data loss and minimal downtime. Complex data mapping and validation required.",
+    "resolution": "Successfully migrated data with zero data loss and minimal downtime",
+    "resolution_steps": [
+        "Analyzed legacy database structure and data relationships",
+        "Designed data mapping and transformation rules",
+        "Created migration scripts and validation procedures",
+        "Performed test migration with sample data",
+        "Executed production migration during maintenance window",
+        "Validated data integrity and performed user acceptance testing"
+    ],
+    "time_spent_minutes": 2535,
+    "tags": [
+        "data_migration",
+        "database",
+        "legacy_system",
+        "validation",
+        "downtime"
+    ],
+    "impact": "High - Critical business data migration",
+    "root_cause": "Legacy system replacement and modernization",
+    "prevention_measures": "Comprehensive testing and rollback procedures"
+}/n/n--- Content from ticket_019_security_patch_deployment.json ---/n{
+    "ticket_id": "TKT-019",
+    "priority": "HIGH",
+    "category": "Security",
+    "status": "Resolved",
+    "created_date": "2024-02-02T13:30:00Z",
+    "resolved_date": "2024-02-02T18:45:00Z",
+    "assigned_to": "Ryan Davis",
+    "user": {
+        "name": "Michelle Garcia",
+        "department": "Finance",
+        "email": "michelle.garcia@company.com"
+    },
+    "subject": "Critical Security Patch Deployment",
+    "description": "Emergency security patches need to be deployed across all systems due to newly discovered vulnerabilities. Patches must be applied immediately to prevent potential security breaches.",
+    "resolution": "Successfully deployed security patches across all systems",
+    "resolution_steps": [
+        "Analyzed security patches and identified affected systems",
+        "Tested patches in isolated environment",
+        "Created deployment plan and rollback procedures",
+        "Deployed patches to critical systems first",
+        "Applied patches to remaining systems in batches",
+        "Verified patch installation and system stability"
+    ],
+    "time_spent_minutes": 315,
+    "tags": [
+        "security",
+        "patches",
+        "vulnerabilities",
+        "deployment",
+        "emergency"
+    ],
+    "impact": "High - Security vulnerability mitigation",
+    "root_cause": "Newly discovered security vulnerabilities",
+    "prevention_measures": "Regular security monitoring and patch management"
+}/n/n--- Content from ticket_020_disaster_recovery_test.json ---/n{
+    "ticket_id": "TKT-020",
+    "priority": "MEDIUM",
+    "category": "Disaster Recovery",
+    "status": "Resolved",
+    "created_date": "2024-02-03T10:00:00Z",
+    "resolved_date": "2024-02-03T16:30:00Z",
+    "assigned_to": "David Kim",
+    "user": {
+        "name": "Richard Martinez",
+        "department": "Operations",
+        "email": "richard.martinez@company.com"
+    },
+    "subject": "Disaster Recovery Testing",
+    "description": "Quarterly disaster recovery test needs to be performed to verify backup systems and recovery procedures. This includes testing data restoration, system recovery, and business continuity processes.",
+    "resolution": "Successfully completed disaster recovery test with minor issues resolved",
+    "resolution_steps": [
+        "Planned disaster recovery test scenarios and procedures",
+        "Activated backup systems and recovery environment",
+        "Tested data restoration from various backup points",
+        "Verified system recovery and application functionality",
+        "Tested business continuity and communication procedures",
+        "Documented test results and identified improvement areas"
+    ],
+    "time_spent_minutes": 390,
+    "tags": [
+        "disaster_recovery",
+        "testing",
+        "backup",
+        "business_continuity",
+        "recovery"
+    ],
+    "impact": "Medium - Business continuity verification",
+    "root_cause": "Regular compliance and testing requirements",
+    "prevention_measures": "Quarterly disaster recovery testing and continuous improvement"
+}/n/n
